@@ -1,11 +1,11 @@
 #Config
 CC = c++
-NAME = harlFilter
+NAME = fixedIntFloat
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 DFLAGS = -fsanitize=address
 
 # Directory
-SRC = main.cpp Harl.cpp
+SRC = main.cpp Fixed.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)
